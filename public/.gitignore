@@ -1,1 +1,3 @@
-public/vendor
+public/vendor/bootstrap
+public/vendor/font-awesome
+public/vendor/jquery
