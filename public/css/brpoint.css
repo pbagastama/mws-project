@@ -1,0 +1,102 @@
+@media only screen and ( max-width: 1024px ) {
+    .menu {
+        padding: 30px 0px;
+    }
+    .menu .img-icon{
+        width: 100px;
+        height: 140px;
+    }
+    .menu h2{
+        font-size : 40px;
+    }
+    .sidebar {
+        padding: 25px 0px;  
+    }
+    .sidebar .img-user{
+        border-radius: 50%;
+        width: 200px;
+    }
+}
+
+@media only screen and ( max-width: 768px ) {
+    .menu h2{
+        font-size : 36px;
+    }
+    .sidebar {
+        padding: 30px;  
+    }
+    .sidebar .img-user{
+        border-radius: 50%;
+        width: 180px;
+    }
+    .konten {
+        font-size : 18px;
+    }
+    .konten p{
+        margin: 0px 0px 35px 0px;
+    }
+    .konten button{
+        font-size: 18px;
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .menu {
+        padding: 20px 0px;
+    }
+    .menu .img-icon{
+        width: 60px;
+        height: 100px;
+    }
+    .menu h2{
+        font-size : 22px;
+    }
+    .sidebar {
+        padding: 60px 15px;  
+    }
+    .sidebar .img-user{
+        border-radius: 50%;
+        width: 120px;
+    }
+    .konten {
+        padding: 15px 20px;
+        font-size : 12px;
+    }
+    .konten p{
+        font-size: 16px;
+        margin: 0px 0px 15px 0px;
+    }
+    .konten button{
+        font-size: 12px;
+        padding: 10px;
+        margin: 10px 20px;
+    }
+    .lisensi{
+        font-size: 14px;
+        padding: 10px 0px;
+    }
+}
+
+@media only screen and ( max-width: 360px ) {
+    .menu h2{
+        font-size : 20px;
+    }
+
+    .konten {
+        padding: 20px;
+        font-size : 14px;
+    }
+    .konten p{
+        font-size: 16px;
+        margin: 0px 0px 5px 0px;
+    }
+    .konten button{
+        font-size: 12px;
+        padding: 12px;
+    }
+    .lisensi{
+        font-size: 12px;
+        padding: 10px 0px;
+    }
+}
