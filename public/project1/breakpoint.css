@@ -1,0 +1,55 @@
+@media only screen and ( max-width: 1024px ) {
+
+}
+
+@media only screen and ( max-width: 768px ) {
+
+}
+
+@media only screen and (max-width: 480px) {
+    .menu h2{
+        font-size: 40px;
+        margin: 25px 5px;
+    }
+    .calc, .calc1, .calc2, .calc3{
+        text-align: center;
+    }
+    .konten1 input{
+        width: 70px;
+    }
+    .konten2 input{
+        width: 70px;
+    }
+    .konten3 input{
+        width: 70px;
+    }
+    .konten4 input{
+        width: 70px;
+    }
+    .lisensi{
+        font-size: 16px;
+    }
+}
+
+@media only screen and ( max-width: 360px ) {
+    .menu h2{
+        font-size: 36px;
+        margin: 10px 5px;
+    }
+    .calc, .calc1, .calc2, .calc3{
+        text-align: left;
+    }
+    .konten1 input{
+        width: 70px;
+    }
+    .konten2 input{
+        width: 70px;
+    }
+    .konten3 input{
+        width: 70px;
+    }
+    .konten4 input{
+        width: 70px;
+    }
+}
+}

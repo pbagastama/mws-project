@@ -1,0 +1,194 @@
+.container {
+    background: #f2f1f2;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 150px 80px 80px 80px 80px 70px;
+   }
+  .menu {
+    background: #894C9E;
+    grid-column: 1/5;
+  }
+  .menu h2{
+    font-family: 'Montserrat', Arial;
+    font-size : 46px;
+    font-weight: bold;
+    color: #FFD629;
+    text-align: center;
+    margin: 15px 0px;
+  }
+  .konten1 {
+    background: #f2f1f2;
+    grid-column: 1/5;
+    font-family: 'Montserrat', arial;
+    font-size: 38px;
+    font-weight: bold;
+    margin: 10px 0px;
+  }
+  .konten1 .calc{
+    padding: 20px 0px;
+    font-size: 24px;
+    color: #894C9E;
+  }
+  .konten1 input{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f1f2;
+    color: #894C9E;
+    border-radius: 5px;
+    border : 2px solid #894C9E;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1px 5px;
+    margin: 0px 5px;
+    text-align: center; 
+  }
+  .konten1 button{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #894C9E;
+    color: #f2f1f2;
+    border-radius: 5px;
+    border : 2px solid #894C9E;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1px 15px;
+    margin: 0px 10px;
+  }
+  .konten2 {
+    background:#f2f1f2;
+    grid-column: 1/5;
+    font-family: 'Montserrat', arial;
+    font-size: 38px;
+    font-weight: bold;
+    margin: 10px 0px;
+  }
+  .konten2 .calc1{
+    padding: 20px 0px;
+    font-size: 24px;
+    color: #894C9E;
+  }
+  .calc1 input{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f1f2;
+    color: #894C9E;
+    border-radius: 5px;
+    border : 2px solid #894C9E;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1px 5px;
+    margin: 0px 5px;
+    text-align: center; 
+  }
+  .konten2 button{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #894C9E;
+    color: #f2f1f2;
+    border-radius: 5px;
+    border : 2px solid #894C9E;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1px 15px;
+    margin: 0px 10px;
+  }
+  .konten3 {
+    background: #f2f1f2;
+    grid-column: 1/5;
+    font-family: 'Montserrat', arial;
+    font-size: 38px;
+    font-weight: bold;
+    margin: 10px 0px;
+  }
+  .konten3 .calc2{
+    padding: 20px 0px;
+    font-size: 24px;
+    color: #894C9E;
+  }
+  .konten3 input{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f1f2;
+    color: #894C9E;
+    border-radius: 5px;
+    border : 2px solid #894C9E;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1px 5px;
+    margin: 0px 5px;
+    text-align: center; 
+  }
+  .konten3 button{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #894C9E;
+    color: #f2f1f2;
+    border-radius: 5px;
+    border : 2px solid #894C9E;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1px 15px;
+    margin: 0px 10px;
+  }
+  .konten3 .btn-lg:hover button{
+    background-color:#f2f1f2;
+    color: #894C9E;
+    border : 2px solid #894C9E;
+  }
+
+  .konten4 {
+    background: #f2f1f2;
+    grid-column: 1/5;
+    font-family: 'Montserrat', arial;
+    font-size: 38px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    margin: 10px 0px;
+  }
+  .konten4 .calc3{
+    padding: 20px 0px;
+    font-size: 24px;
+    color: #894C9E;
+  }
+  .konten4 input{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f1f2;
+    color: #894C9E;
+    border-radius: 5px;
+    border : 2px solid #894C9E;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1px 5px;
+    margin: 0px 5px;
+    text-align: center; 
+  }
+  .konten4 button{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #894C9E;
+    color: #f2f1f2;
+    border-radius: 5px;
+    border : 2px solid #894C9E;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1px 15px;
+    margin: 0px 10px;
+  }  
+  .lisensi{
+    background: #894C9E;
+    grid-column: 1/5;
+    grid-row: 6/7;
+    font-family: 'Montserrat', Arial;
+    font-size : 20px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 20px;
+  }
+  .linkedin{
+    color: #FFF;
+    font-style: normal; 
+  }
+  .footer {
+    background: #894C9E;
+    grid-column: 1/5;
+    grid-row : 7/8;
+  }
+  .footer .img-foot{ 
+    width: 100%;
+  }
