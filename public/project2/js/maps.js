@@ -1,17 +1,17 @@
-var mymap = L.map('mapid').setView([-6.238279,106.902439], 17);
+var mymap = L.map('mapid').setView([-6.238279,106.902439], 16);
 var marker = L.marker([-6.238279,106.902439]).addTo(mymap);
 
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    maxZoom: 18,
+    maxZoom: 19,
     id: 'mapbox.streets',
     accessToken: 'pk.eyJ1IjoicGJhZ2FzdGFtYSIsImEiOiJjam1qcjc2MWIwaDU4M3FwZnFsa2o0ejhoIn0.aoG9D3ST7bw8NHw_XeR4iQ'
 }).addTo(mymap);
 
 var circle = L.circle([-6.238279,106.902439], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
+    color: '#894C9E',
+    fillColor: '#894C9E',
+    fillOpacity: 0.3,
     radius: 200
 }).addTo(mymap);
 
