@@ -9,72 +9,69 @@
     .menu h2{
         font-size : 40px;
     }
-    .sidebar {
-        padding: 25px 0px;  
+    .head-text{
+        margin: 20px 0px;
+    }
+    .sidebar{
+        padding: 5px 0px;  
     }
     .sidebar .img-user{
+        width: 250px;
         border-radius: 50%;
-        width: 200px;
+        padding: 20px 0px;
     }
 }
 
 @media only screen and ( max-width: 768px ) {
+    .menu .img-icon{
+        width: 80px;
+        height: 120px;
+    }
     .menu h2{
         font-size : 36px;
     }
-    .sidebar {
-        padding: 30px;  
+    .menu h3{
+        font-size : 32px;
     }
     .sidebar .img-user{
-        border-radius: 50%;
-        width: 180px;
+        width: 220px;
+        padding: 40px 0px;
     }
     .konten {
         font-size : 18px;
-    }
-    .konten p{
-        margin: 0px 0px 35px 0px;
-    }
-    .konten button{
-        font-size: 18px;
-        padding: 15px;
     }
 }
 
 @media only screen and (max-width: 480px) {
     .menu {
-        padding: 20px 0px;
+        padding: 5px 0px;
     }
     .menu .img-icon{
-        width: 60px;
-        height: 100px;
+        margin: 15px 10px;
+        width: 45px;
+        height: 60px;
     }
     .menu h2{
         font-size : 22px;
     }
-    .sidebar {
-        padding: 60px 15px;  
+    .menu h3{
+        font-size : 18px;
     }
     .sidebar .img-user{
+        padding: 80px 20px;
         border-radius: 50%;
-        width: 120px;
+        width: 150px;
     }
-    .konten {
-        padding: 15px 20px;
-        font-size : 12px;
+    .konten1 {
+        font-size : 14px;
+        padding: 20px 0px;
     }
-    .konten p{
-        font-size: 16px;
-        margin: 0px 0px 15px 0px;
-    }
-    .konten button{
-        font-size: 12px;
-        padding: 10px;
-        margin: 10px 20px;
+    .konten2 {
+        font-size : 14px;
+        padding: 35px 0px;
     }
     .lisensi{
-        font-size: 14px;
-        padding: 10px 0px;
+        font-size: 16px;
     }
 }
 
@@ -82,21 +79,24 @@
     .menu h2{
         font-size : 20px;
     }
-
-    .konten {
-        padding: 20px;
-        font-size : 14px;
+    .menu h3{
+        font-size : 16px;
     }
-    .konten p{
-        font-size: 16px;
-        margin: 0px 0px 5px 0px;
+    .konten1 {
+        font-size : 12px;
+        padding: 25px 0px;
     }
-    .konten button{
-        font-size: 12px;
-        padding: 12px;
+    .konten1 a .satu{
+        font-size: 14px;
+    }
+    .konten2 {
+        font-size : 12px;
+        padding: 50px 0px;
+    }
+    .konten2 a p{
+        font-size: 14px;
     }
     .lisensi{
-        font-size: 12px;
-        padding: 10px 0px;
+        font-size: 16px;
     }
 }
