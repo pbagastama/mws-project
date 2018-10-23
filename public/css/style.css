@@ -9,7 +9,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto 138px 50px 130px;
     /* grid-gap: 1px; */
-   }
+  }
   .menu {
     background: #894C9E;
     grid-column: 1/5;
@@ -64,7 +64,7 @@
     background:#f2f1f2;
     grid-row: 2/3;
     grid-column: 3/5;
-    padding: 25px 0px;
+    padding: 20px 0px;
     border-bottom: 2px solid #894C9E;
     display: flex;
     justify-content: center;
@@ -72,13 +72,23 @@
   .konten1 a i{
     color: #894C9E;
   }
-  .konten1 a .satu{
+  .konten1 a p{
     background: #f2f1f2;
     font-family: 'Montserrat', Arial;
     color: #894C9E;
     font-weight: bold;
     font-size: 20px;
     padding: 10px;
+    margin: 3px 0px;
+  }
+  .konten1 a{
+    text-decoration: none;
+  }
+  .konten1 a .fas:hover:hover{
+    color: #333;
+  }
+  .konten1 a p:hover{
+    color: #333;
   }
   .konten2{
     font-family: 'Montserrat', Arial;
@@ -91,8 +101,17 @@
     padding: 40px 0px;
     color: #894C9E;
   }
+  .konten2 a{
+    text-decoration: none;
+  }
   .konten2 a i{
     color: #894C9E;
+  }
+  .konten2 a .far:hover{
+    color: #333;
+  }
+  .konten2 a p:hover{
+    color: #333;
   }
   .konten2 a p{
     background: #f2f1f2;
@@ -115,6 +134,9 @@
     color: #FFF;
     text-align: center;
     padding: 25px 0px;
+  }
+  .lisensi .social-center a i:hover{
+    color: #333;
   }
   .social-center{
     margin: 10px 0px;

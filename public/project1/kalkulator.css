@@ -1,33 +1,81 @@
-.container {
+html, body{
+  margin: 0;
+  background: #f2f1f2;
+  font-family: 'Montserrat', Arial;
+} 
+  .container {
     background: #f2f1f2;
     display: grid;
     width: 100%;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 150px 80px 80px 80px 80px 70px;
-   }
+    grid-template-rows: 125px 80px 70px 70px 70px 70px 120px 80px;
+  }
   .menu {
     background: #894C9E;
     grid-column: 1/5;
+    padding: 10px 0px;
+    justify-content: center;
+    display: flex;
+    z-index: 1000;
+  }
+  .head-logo{
+    float: left;
+  }
+  .head-logo a i{
+    margin: 7px;
+    color: #FFD629;
+  }
+  .head-logo a i:hover{
+    color: #FFF;
+  }
+  .head-text{
+    float: left;
+  }
+  .head-text a{
+    text-decoration: none;
   }
   .menu h2{
-    font-family: 'Montserrat', Arial;
-    font-size : 46px;
+    font-size : 38px;
     font-weight: bold;
     color: #FFD629;
     text-align: center;
-    margin: 15px 0px;
+    margin: 10px 0px 0px 0px;
+  }
+  .menu h2 span{
+    font-size : 32px;
+    font-weight: bold;
+    color: #FFD629;
+    text-align: center;
+    margin: 0px;
+  }
+  .menu a h2:hover{
+    color:#FFF;
+  }
+  .menu a h2 span:hover{
+    color: #FFF;
+  }
+  .head-konten{
+    grid-column: 1/5;
+    grid-row: 2/3;
+    font-size: 18px;
+    color: #894C9E;
+    display: flex;
+    justify-content: center;
+  }
+  .head-konten h2{
+    margin: 15px 0px 0px 0px;
+    text-align: center;
   }
   .konten1 {
     background: #f2f1f2;
     grid-column: 1/5;
-    font-family: 'Montserrat', arial;
-    font-size: 38px;
-    font-weight: bold;
+    grid-row: 3/4;
     margin: 10px 0px;
   }
   .konten1 .calc{
-    padding: 20px 0px;
-    font-size: 24px;
+    padding: 10px 0px;
+    font-size: 28px;
+    font-weight: bold;
     color: #894C9E;
   }
   .konten1 input{
@@ -54,16 +102,14 @@
     margin: 0px 10px;
   }
   .konten2 {
-    background:#f2f1f2;
     grid-column: 1/5;
-    font-family: 'Montserrat', arial;
-    font-size: 38px;
-    font-weight: bold;
+    grid-row: 4/5;
     margin: 10px 0px;
   }
   .konten2 .calc1{
-    padding: 20px 0px;
-    font-size: 24px;
+    padding: 10px 0px;
+    font-size: 28px;
+    font-weight: bold;
     color: #894C9E;
   }
   .calc1 input{
@@ -90,16 +136,14 @@
     margin: 0px 10px;
   }
   .konten3 {
-    background: #f2f1f2;
     grid-column: 1/5;
-    font-family: 'Montserrat', arial;
-    font-size: 38px;
-    font-weight: bold;
+    grid-row: 5/6;
     margin: 10px 0px;
   }
   .konten3 .calc2{
-    padding: 20px 0px;
-    font-size: 24px;
+    padding: 10px 0px;
+    font-size: 28px;
+    font-weight: bold;
     color: #894C9E;
   }
   .konten3 input{
@@ -130,19 +174,16 @@
     color: #894C9E;
     border : 2px solid #894C9E;
   }
-
   .konten4 {
-    background: #f2f1f2;
     grid-column: 1/5;
-    font-family: 'Montserrat', arial;
-    font-size: 38px;
-    font-weight: bold;
+    grid-row: 6/7;
     padding-bottom: 0px;
     margin: 10px 0px;
   }
   .konten4 .calc3{
-    padding: 20px 0px;
-    font-size: 24px;
+    padding: 10px 0px;
+    font-size: 28px;
+    font-weight: bold;
     color: #894C9E;
   }
   .konten4 input{
@@ -167,27 +208,55 @@
     font-size: 20px;
     padding: 1px 15px;
     margin: 0px 10px;
-  }  
+  } 
+  .konten1 button:hover{
+    background: #f2f1f2;
+    color: #894C9E;
+    border: 2px solid #894C9E;
+  }
+  .konten2 button:hover{
+    background: #f2f1f2;
+    color: #894C9E;
+    border: 2px solid #894C9E;
+  }
+  .konten3 button:hover{
+    background: #f2f1f2;
+    color: #894C9E;
+    border: 2px solid #894C9E;
+  }
+  .konten4 button:hover{
+    background: #f2f1f2;
+    color: #894C9E;
+    border: 2px solid #894C9E;
+  }
+  .lisensi .social-center a i{
+    color: #FFF;
+    font-weight: 200;
+  }
   .lisensi{
     background: #894C9E;
     grid-column: 1/5;
-    grid-row: 6/7;
-    font-family: 'Montserrat', Arial;
+    grid-row: 7/8;
     font-size : 20px;
     font-weight: bold;
     color: #FFF;
     text-align: center;
-    padding: 20px 0px;
-    margin-top: 20px;
+    padding: 10px 0px;
+    margin-top: 15px;
   }
-  .linkedin{
-    color: #FFF;
-    font-style: normal; 
+  .lisensi .social-center a i:hover{
+    color: #333;
+  }
+  .social-center{
+    margin: 10px 0px;
+  }
+  .social-center a{
+    margin: 0px 5px;
   }
   .footer {
     background: #894C9E;
     grid-column: 1/5;
-    grid-row : 7/8;
+    grid-row : 8/9;
   }
   .footer .img-foot{ 
     width: 100%;

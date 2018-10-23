@@ -1,43 +1,70 @@
-html, body {
+html, body{
     height: 100%;
     width: 100%;
 }
-
-body {
+body{
     font-family: 'Montserrat', Arial;
     font-size: 16px;
     padding: 0;
     margin: 0;
 }
-
 .container {
     display: grid;
     height: 100%;
-    grid-gap: 2px;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 10% 50% 40%;
+    grid-template-rows: 125px 405px 75px 90px;
 }
-.menu {
+.menu{
     background: #894C9E;
     grid-column: 1/5;
-    padding: 5px 0px;
-  }
-  .menu h2{
-    font-family: 'Montserrat', Arial;
-    font-size : 42px;
+    padding: 10px 0px;
+    justify-content: center;
+    display: flex;
+    z-index: 1000;
+}
+.head-logo{
+    float: left;
+}
+.head-logo a i{
+    margin: 7px;
+    color: #FFD629;
+}
+.head-logo a i:hover{
+    color: #FFF;
+}
+.head-text{
+    float: left;
+}
+.head-text a{
+    text-decoration: none;
+}
+.menu h2{
+    font-size : 38px;
     font-weight: bold;
     color: #FFD629;
     text-align: center;
-    margin: 5px 0px;
-  }
+    margin: 10px 0px 0px 0px;
+}
+.menu h2 span{
+    font-size : 32px;
+    font-weight: bold;
+    color: #FFD629;
+    text-align: center;
+    margin: 0px;
+}
+.menu a h2:hover{
+    color:#FFF;
+}
+.menu a h2 span:hover{
+    color: #FFF;
+}
+
 .peta {
     grid-column: 1/5;
     align-content: center;
-    margin: 10px 50px;
-    border: 2px solid #894C9E;
-    border-radius: 10px;
 }
-.gambar {
+
+/* .gambar {
     font-family: 'Montserrat', Arial;
     font-size: 20px;
     font-weight: bold;
@@ -50,4 +77,33 @@ body {
     font-weight: bold;
     background: #fed136;
     grid-column:3/5;
+} */
+
+.lisensi .social-center a i{
+    color: #FFF;
+    font-weight: 200;
+}
+.lisensi{
+    background: #894C9E;
+    grid-column: 1/5;
+    font-size : 16px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+}
+.lisensi .social-center a i:hover{
+    color: #333;
+}
+.social-center{
+    margin: 10px 0px;
+}
+.social-center a{
+    margin: 0px 5px;
+}
+.footer {
+    background: #894C9E;
+    grid-column: 1/5;
+}
+.footer .img-foot{ 
+    width: 100%;
 }

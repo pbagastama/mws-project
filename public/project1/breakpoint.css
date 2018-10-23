@@ -1,15 +1,37 @@
 @media only screen and ( max-width: 1024px ) {
-
+    .container {
+        grid-template-rows: 125px 80px 70px 70px 70px 70px 120px 70px;
+    }
 }
 
 @media only screen and ( max-width: 768px ) {
-
+    .container {
+        grid-template-rows: 125px 80px 70px 70px 70px 70px 120px 50px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
+    .container {
+        grid-template-rows: 90px 65px 70px 70px 70px 70px 120px 30px;
+    }
+    .head-logo a i{
+        font-size: 70px;
+        margin: 0px 5px;
+    }
     .menu h2{
-        font-size: 40px;
-        margin: 25px 5px;
+        font-size : 24px;
+        margin: 10px 0px 0px 0px;
+    }
+    .menu h2 span{
+        font-size : 18px;
+        font-weight: bold;
+        color: #FFD629;
+        text-align: center;
+        margin: 0px;
+    }
+    .head-konten{
+        font-size: 14px;
+        text-align: center;
     }
     .calc, .calc1, .calc2, .calc3{
         text-align: center;
@@ -32,23 +54,38 @@
 }
 
 @media only screen and ( max-width: 360px ) {
-    .menu h2{
-        font-size: 36px;
-        margin: 10px 5px;
+    .container {
+        grid-template-rows: 85px 85px 70px 70px 70px 70px 120px 25px;
     }
-    .calc, .calc1, .calc2, .calc3{
-        text-align: left;
+    .head-logo a i{
+        font-size: 60px;
+        margin: 3px 5px;
+    }
+    .menu h2{
+        font-size : 22px;
+    }
+    .menu h2 span{
+        font-size : 18px;
+    }
+    .head-konten{
+        margin-top: 20px;
+        font-size: 14px;
+        text-align: center;
     }
     .konten1 input{
-        width: 70px;
+        width: 50px;
     }
     .konten2 input{
-        width: 70px;
+        width: 50px;
     }
     .konten3 input{
-        width: 70px;
+        width: 50px;
     }
     .konten4 input{
-        width: 70px;
+        width: 50px;
+    }
+    .lisensi{
+        font-size: 14px;
+        margin-top: 30px;
     }
 }
